@@ -1,0 +1,528 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*------> END CSS RESET <------*/
+
+
+/*------> START MAIN STYLES <------*/
+
+/* -----UNIVERSAL */
+@font-face {
+   font-family: Vegur; 
+   src: url(/fonts/Vegur-B 0.602.otf) format("opentype"); 
+} 
+
+body{
+	background: #fefefe;
+}
+
+.index-background{
+	background-image:url("images/index-background.png");
+}
+
+.mainWrap{
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+	height: 1449px;
+}
+
+/* header */
+.logo{
+	position: absolute;
+	top: 24px;
+	left: 35px;
+}
+
+.search{
+	position: absolute;
+	top: 24px;
+	right: 35px;
+}
+
+.search input{
+	width: 130px;
+}
+
+.login{
+	position: absolute;
+	top: 55px;
+	right: 35px;
+}
+
+.contact{
+	position: absolute;
+	top: 75px;
+	right: 35px;
+}
+.mainNav{
+	position: absolute;
+	top: 114px;
+	right: 35px;
+}
+
+.mainNav ul li{
+	float: left;
+	margin-left: 40px;	
+}
+
+.mainNav ul li a{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	color: #404041;
+	text-decoration: none;
+	font-weight: 400;
+}
+/* footer */
+
+/* -----END UNIVERSAL */
+
+
+/* -----INDEX */
+
+/* top content */
+.topContent{
+	position: absolute;
+	top: 215px;
+	left: 55px;	
+	width: 490px;
+}
+
+.topContent h1{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 30px; 
+	font-weight: 100;
+	color: #606060;
+	margin-bottom: 6px;
+}
+
+.topContent p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 20px; 
+	line-height: 26px;
+	font-weight: 100;
+	color: #C12026;
+	margin-bottom: 20px;
+}
+
+.topContent p:last-of-type{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 20px; 
+	font-weight: 100;
+	color: #404041;
+	margin-bottom: 0px;
+}
+
+.ipadPic{
+	position: absolute;
+	top: -65px;
+	left: 390px;
+}
+
+/* middle content */
+.middleContent{
+	position: absolute;
+	top: 520px;
+	left: 74px;
+}
+
+.left, .middle, .right{
+	float: left;
+	width: 265px;
+	height: 80px;
+}	
+
+.middle{
+	margin-left: 100px;
+}
+
+.middleContent h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	font-weight: 400; 
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.middleContent p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px; 
+	line-height: 18px;
+	font-weight: 100;
+	color: #808284;
+}
+
+.middleContent a img{
+	margin-top: -5px;
+}
+
+.getTheChecklist{
+	position: absolute;
+	top: 118px;
+	right: 40px;
+}
+
+.deliveryCounter{
+	position: absolute;
+	top: 0px;
+	left: 285px;
+}
+
+.nums1{
+	position: absolute;
+	top: 50px;
+	left: 374px;
+}
+
+.nums2{
+	position: absolute;
+	top: 111px;
+	left: 374px;
+}
+
+/* bottom content */
+.bottomContent{
+	position: absolute;
+	top: 760px;
+	left: 74px;
+	width: 410px;
+}
+
+.bottomContent h1{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 30px; 
+	font-weight: 100;
+	color: #C12026;
+	margin-bottom: 6px;
+}
+
+.bottomContent p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 13px; 
+	line-height: 18px;
+	font-weight: 400;
+	color: #404041;
+	margin-bottom: 5px;
+}
+
+.videoImage{
+	position: absolute;
+	top: -30px;
+	left: 455px;
+}
+
+.ourClients{
+	position: absolute;
+	top: 235px;
+	left: 0px;
+}
+
+.unitedStationers{
+	position: absolute;
+	top: 280px;
+	left: 0px;
+}
+
+.newsFeedWrap{
+	position: absolute;
+	top: 235px;
+	left: 290px;
+}
+
+.newsNav{
+	width: 25px;
+	position: absolute;
+	top: 51px;
+	left: 582px;
+}
+
+.upArrow img{
+	margin-bottom: 15px;
+}
+
+.twitterLink{
+	position: absolute;
+	top: 40px;
+	left: 17px;
+}
+
+.linkedInLink{
+	position: absolute;
+	top: 97px;
+	left: 18px;
+}
+
+.twitterNews{
+	position: absolute;
+	top: 34px;
+	left: 55px;
+}
+
+.linkedInNews{
+	position: absolute;
+	top: 88px;
+	left: 55px;	
+}
+
+/* home page footer - different from footers on other pages */
+footer{
+	position: absolute;
+	left: 0px;
+	top: 1160px;
+}
+
+footer nav{
+	margin: 30px 0 0 50px;
+}
+
+footer nav li{
+	margin-bottom: 10px;
+}
+
+footer nav li a{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 500;
+}
+
+.customerQuote{
+	position: absolute;
+	top: 30px;
+	left: 370px;
+	width: 350px;
+}
+
+.customerQuote h1{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	font-weight: 400; 
+	color: #404041;
+	margin-bottom: 10px;	
+}
+
+.customerQuote blockquote{
+	width: 295px;
+}
+
+.customerQuote p{
+	width: 350px;
+	color: #F9102C;
+}
+
+.customerQuote blockQuote{
+	color: #404041;
+}
+
+.customerQuote blockQuote, .customerQuote p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 13px; 
+	line-height: 18px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.contactUs{
+	position: absolute;
+	top: 30px;
+	left: 745px;
+	width: 350px;
+}
+
+.contactUs h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 30px; 
+	font-weight: 100;
+	color: #F9102C;
+	margin-bottom: 10px;
+}
+
+.contactUs p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 20px;
+	line-height: 26px; 
+	font-weight: 100;
+	color: #404041;
+}
+
+.stayConnected{
+	position: absolute;
+	top: 160px;
+	left: 745px;
+	width: 350px;	
+}
+
+.stayConnected h3{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 400;
+}
+
+.stayConnected ul{
+	position: absolute;
+	top: -13px;
+	left: 140px;
+} 
+
+.stayConnected ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+.copyright{
+	margin: 80px 0 0 45px;
+	font-size: 16px;
+	color: #404041;	
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-transform: capitalize;
+	width: 180px;
+}
+
+.footerNav{
+	margin: -20px 0 0 360px;
+}
+
+.footerNav ul li{
+	float: left;
+}
+
+.footerNav ul li{
+	margin-left: 6px;
+}
+
+.footerNav ul li a{
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404041;	
+}
+/* -----END INDEX */
+
+
+/* -----TECHNOLOGY */
+
+/* -----END TECHNOLOGY */
+
+
+/* -----CUSTOMERS */
+
+/* -----END CUSTOMERS */
+
+
+/* -----LAST MILE */
+
+/* -----END LAST MILE */
+
+
+/* -----RESOURCES */
+
+/* -----END RESOURCES */
+
+
+/* -----COMPANY */
+
+/* -----END COMPANY */
