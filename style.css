@@ -500,11 +500,45 @@ footer nav li a{
 	font-size: 14px;
 	color: #404041;	
 }
-/* -----END INDEX */
+	/* -----END INDEX */
 
 
 /* -----TECHNOLOGY */
+.technology-background{
+	background-image:url("images/technologyBackground.png");
+}
 
+.technologyWrap{ /* needs unique class */
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+	height: 1954px;
+}
+
+.div1{
+	width: 700px;
+	position: absolute;
+	top: 180px;
+	left: 110px;
+
+}
+
+.technologyWrap div h1{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 50px; 
+	font-weight: 100;
+	color: #606060;
+	margin-bottom: 6px;
+}
+
+.technologyWrap div p{ 
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 22px; 
+	line-height: 30px;
+	font-weight: 100;
+	color: #C12026;
+	margin-bottom: 20px;
+}
 /* -----END TECHNOLOGY */
 
 
