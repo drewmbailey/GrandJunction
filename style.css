@@ -173,7 +173,7 @@ body{
 	text-decoration: none;
 	font-weight: 400;
 }
-/* footer */
+
 
 /* -----END UNIVERSAL */
 
@@ -181,14 +181,14 @@ body{
 /* -----INDEX */
 
 /* top content */
-.topContent{
+.indexTopContent{
 	position: absolute;
 	top: 215px;
 	left: 55px;	
 	width: 490px;
 }
 
-.topContent h1{
+.indexTopContent h1{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 30px; 
 	font-weight: 100;
@@ -196,7 +196,7 @@ body{
 	margin-bottom: 6px;
 }
 
-.topContent p{
+.indexTopContent p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 20px; 
 	line-height: 26px;
@@ -205,7 +205,7 @@ body{
 	margin-bottom: 20px;
 }
 
-.topContent p:last-of-type{
+.indexTopContent p:last-of-type{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 20px; 
 	font-weight: 100;
@@ -220,7 +220,7 @@ body{
 }
 
 /* middle content */
-.middleContent{
+.indexMiddleContent{
 	position: absolute;
 	top: 520px;
 	left: 74px;
@@ -236,7 +236,7 @@ body{
 	margin-left: 100px;
 }
 
-.middleContent h2{
+.indexMiddleContent h2{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 18px;
 	font-weight: 400; 
@@ -244,7 +244,7 @@ body{
 	margin-bottom: 10px;
 }
 
-.middleContent p{
+.indexMiddleContent p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 14px; 
 	line-height: 18px;
@@ -252,7 +252,7 @@ body{
 	color: #808284;
 }
 
-.middleContent a img{
+.indexMiddleContent a img{
 	margin-top: -5px;
 }
 
@@ -281,14 +281,14 @@ body{
 }
 
 /* bottom content */
-.bottomContent{
+.indexBottomContent{
 	position: absolute;
 	top: 760px;
 	left: 74px;
 	width: 410px;
 }
 
-.bottomContent h1{
+.indexBottomContent h1{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 30px; 
 	font-weight: 100;
@@ -296,7 +296,7 @@ body{
 	margin-bottom: 6px;
 }
 
-.bottomContent p{
+.indexBottomContent p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 13px; 
 	line-height: 18px;
@@ -423,14 +423,14 @@ footer nav li a{
 	margin-bottom: 5px;
 }
 
-.contactUs{
+.indexContactUs{
 	position: absolute;
 	top: 30px;
 	left: 745px;
 	width: 350px;
 }
 
-.contactUs h2{
+.indexContactUs h2{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 30px; 
 	font-weight: 100;
@@ -438,7 +438,7 @@ footer nav li a{
 	margin-bottom: 10px;
 }
 
-.contactUs p{
+.indexContactUs p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 20px;
 	line-height: 26px; 
@@ -446,9 +446,325 @@ footer nav li a{
 	color: #404041;
 }
 
-.stayConnected{
+.indexStayConnected{
 	position: absolute;
 	top: 160px;
+	left: 745px;
+	width: 350px;	
+}
+
+.indexStayConnected h3{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 400;
+}
+
+.indexStayConnected ul{
+	position: absolute;
+	top: -13px;
+	left: 140px;
+} 
+
+.indexStayConnected ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+.indexCopyright{
+	margin: 50px 0 0 45px;
+	font-size: 16px;
+	color: #404041;	
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-transform: capitalize;
+	width: 180px;
+}
+
+.indexFooterNav{
+	margin: -20px 0 0 360px;
+}
+
+.indexFooterNav ul li{
+	float: left;
+}
+
+.indexFooterNav ul li{
+	margin-left: 6px;
+}
+
+.indexFooterNav ul li a{
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404041;	
+}
+/* -----END INDEX */
+
+
+/* -----TECHNOLOGY */
+.technology-background{
+	background-image:url("images/technologyBackground.png");
+}
+
+.technologyWrap{ 
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+	height: 1954px;
+}
+
+.technologyTopContent{
+	width: 700px;
+	position: absolute;
+	top: 180px;
+	left: 110px;
+
+}
+
+.technologyTopContent h1{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 50px; 
+	font-weight: 100;
+	color: #606060;
+	margin-bottom: 6px;
+}
+
+.technologyTopContent p{ 
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 22px; 
+	line-height: 30px;
+	font-weight: 100;
+	color: #C12026;
+	margin-bottom: 20px;
+}
+
+.technologyMiddleContent{
+	width: 630px;
+	height: 760px;
+	position: absolute;
+	top: 435px;
+	left: 50px;
+}
+
+.technologyMiddleContent div{
+	position: relative;
+}
+
+.technologyMiddleContent h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.technologyMiddleContent p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #606060;
+	margin-bottom: 40px;
+}
+
+.technologyMiddleContent h3{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #D85800;
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+
+.technologyListsLines{
+	position: absolute;
+	left: 0px;
+	top: 260px;
+}
+
+.technologyLists{
+	margin: 22px 0 0 30px;
+}
+
+.technologyLists ul{
+	margin-bottom: 20px;
+}
+
+.technologyLists h4{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	font-weight: 400;
+	margin-bottom: 2px;
+}
+
+.technologyLists li{
+	list-style-type: disc;
+	font-size: 8px;
+}
+
+.technologyLists li p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #606060;
+	margin: 0;
+}
+
+.technologySidebar{
+	position: absolute;
+	top: 460px;
+	left: 740px;
+	width: 210px;
+}
+
+.technologySidebar h3{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #D85800;
+	margin: 0 0 10px -15px;
+	font-weight: 100;
+}
+
+.technologySidebar li{ /* figure out bullet impages */
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #404041;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+
+/*technology bottom content*/
+.technologyBottomContent{
+	position: absolute; 
+	top: 1250px; 
+	left: 85px;
+	width: 825px;
+}
+
+.technologyBottomContent h5{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+
+#technologyBottomContentFirstP{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+.technologyBottomContent h6{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+
+	font-weight: 400;
+}
+
+.technologyBottomContent p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+
+#technologyBottomContentLastDiv{
+	margin: -15px 0 0 0; 
+}
+
+/* technology footer */
+.technologyFooter{
+	position: absolute;
+	left: -13px;
+	top: 1740px;
+}
+
+.technologyFooter div{
+	position: relative;
+}
+
+.technologyFooter nav li{
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 8px;
+}
+
+.technologyFooter nav li a{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 500;
+}
+
+.footerNavMain{
+	margin: 90px 0 0 35px;
+}
+
+.footerNav{
+	margin: -18px 0 0 260px;
+}
+
+.footerNav ul li{
+	float: left;
+}
+
+.footerNav ul li{
+	margin-left: 6px;
+}
+
+.footerNav ul li a{
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404041;	
+}
+
+.contactUs{
+	position: absolute;
+	top: -33px;
+	left: 745px;
+	width: 350px;
+}
+
+.contactUs h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px; 
+	font-weight: 100;
+	color: #F9102C;
+	margin: -5px 20px 0 0;
+	float: left;
+}
+
+.contactUs p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 16px;
+	line-height: 20px; 
+	font-weight: 100;
+	color: #404041;
+}
+
+.contactUs p:last-of-type{
+	margin-left: 126px;
+}
+
+.stayConnected{
+	position: absolute;
+	top: 3px;
 	left: 745px;
 	width: 350px;	
 }
@@ -474,16 +790,92 @@ footer nav li a{
 }
 
 .copyright{
-	margin: 80px 0 0 45px;
+	margin: -15px 0 0 45px;
 	font-size: 16px;
 	color: #404041;	
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	text-transform: capitalize;
 	width: 180px;
 }
+/* -----END TECHNOLOGY */
+
+
+/* -----CUSTOMER */
+.customerBackground{
+	background-image:url("images/customerBackground.png");
+}
+
+.customerWrap{
+position: relative;
+width: 1050px;
+margin: 0 auto;
+height: 2124px;
+}
+
+/*customer top content*/
+.customerTopContent{
+	width: 565px;
+	position: absolute;
+	top: 230px;
+	left: 245px;
+}
+
+.customerTopContent h1{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 50px; 
+	font-weight: 100;
+	color: #404041;
+	margin-bottom: 6px;
+}
+
+.customerTopContent p{ 
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 22px; 
+	line-height: 30px;
+	font-weight: 100;
+	color: #C12026;
+	margin-bottom: 20px;
+}
+
+/*customer middle content*/
+
+
+
+/*customer bottom content*/
+
+
+
+/* customer footer */
+.customerFooter{
+	position: absolute;
+	left: -13px;
+	top: 1924px;
+}
+
+.customerFooter div{
+	position: relative;
+}
+
+.customerFooter nav li{
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 8px;
+}
+
+.customerFooter nav li a{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 500;
+}
+
+.footerNavMain{
+	margin: 90px 0 0 35px;
+}
 
 .footerNav{
-	margin: -20px 0 0 360px;
+	margin: -18px 0 0 260px;
 }
 
 .footerNav ul li{
@@ -500,50 +892,70 @@ footer nav li a{
 	font-size: 14px;
 	color: #404041;	
 }
-	/* -----END INDEX */
 
-
-/* -----TECHNOLOGY */
-.technology-background{
-	background-image:url("images/technologyBackground.png");
-}
-
-.technologyWrap{ /* needs unique class */
-	position: relative;
-	width: 1050px;
-	margin: 0 auto;
-	height: 1954px;
-}
-
-.div1{
-	width: 700px;
+.contactUs{
 	position: absolute;
-	top: 180px;
-	left: 110px;
-
+	top: -33px;
+	left: 745px;
+	width: 350px;
 }
 
-.technologyWrap div h1{
+.contactUs h2{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
-	font-size: 50px; 
+	font-size: 24px; 
 	font-weight: 100;
-	color: #606060;
-	margin-bottom: 6px;
+	color: #F9102C;
+	margin: -5px 20px 0 0;
+	float: left;
 }
 
-.technologyWrap div p{ 
+.contactUs p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
-	font-size: 22px; 
-	line-height: 30px;
+	font-size: 16px;
+	line-height: 20px; 
 	font-weight: 100;
-	color: #C12026;
-	margin-bottom: 20px;
+	color: #404041;
 }
-/* -----END TECHNOLOGY */
 
+.contactUs p:last-of-type{
+	margin-left: 126px;
+}
 
-/* -----CUSTOMERS */
+.stayConnected{
+	position: absolute;
+	top: 3px;
+	left: 745px;
+	width: 350px;	
+}
 
+.stayConnected h3{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 400;
+}
+
+.stayConnected ul{
+	position: absolute;
+	top: -13px;
+	left: 140px;
+} 
+
+.stayConnected ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+.copyright{
+	margin: -15px 0 0 45px;
+	font-size: 16px;
+	color: #404041;	
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-transform: capitalize;
+	width: 180px;
+}
 /* -----END CUSTOMERS */
 
 
