@@ -839,9 +839,301 @@ height: 2124px;
 
 /*customer middle content*/
 
+.customerMiddleContent{
+	width: 610px;
+	position: absolute;
+	top: 450px;
+	left: 50px;
+}
+
+.customerMiddleContent h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #D85800;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+
+.customerMiddleContent h3{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	font-weight: 400;
+	margin-bottom: 2px;
+}
+
+.customerMiddleContent p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #606060;
+	margin-bottom: 20px;
+}
+
+.customerResources, .customerNews, .customerArticles{
+	margin-bottom: 40px;
+}
+
+.customerSidebar{
+	position: absolute;
+	top: 10px;
+	left: 680px;
+	width: 225px;
+}
+
+.customerSidebar h4{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #D85800;
+	margin: 0 0 20px 0;
+	font-weight: 100;
+}
+
+.customerSidebar blockquote{ 
+	font-family:  Vegur, Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #404041;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+
+.customerSidebar p{
+	font-family: "myriad pro", Calibri, Arial, Georgia, Verdana, Sans-Serif; 
+	color: #C33927;
+	font-weight: 900;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+ 
+.customerSidebar img{
+	margin: 5px 0 20px 0;
+}
+
+.someClients{
+	position: absolute;
+	left: 680px;
+	top: 695px;
+	height: 200px;
+	width: 285px;
+}
+
+.someClients div{
+	position: relative;
+	display: block;
+}
+
+.someClients h3{
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.someClients li{
+	list-style: none;
+	float: left;
+	margin: 0 25px 25px 0;
+}
 
 
 /*customer bottom content*/
+.customerBottomContent{
+	position: absolute;
+	top: 1525px;
+	left: 42px;
+	width: 948px;
+	height: 440px;
+}
+
+.customerBottomContentWrap{
+	position: relative;
+}
+
+.customerBottomContent h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #D85800;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+
+.customerBottomContent h3{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	font-weight: 400;
+	margin-bottom: 2px;
+}
+
+.customerTwitterFeed{
+	position: relative;
+	background-image: url("images/customerTwitterFeedBackground.png");
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 120px;
+	margin: 50px 0 0 0;
+}
+
+.customerTwitterFeed h3{
+	position: absolute;
+	top: -25px;
+	left: 65px;
+}
+
+.customerTwitterFeed p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #606060;
+	width: 400px;
+	margin: 20px 0 22px 55px;
+}
+
+.customerTwitterFeed p:first-of-type{
+	padding-top: 6px;
+}
+
+.customerTwitterFeedLogo{
+	position: absolute;
+	top: -22px;
+	left: 38px;
+}
+
+.customerTwitterDate1{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.customerTwitterDate2{
+	position: absolute;
+	top: 60px;
+	left: 10px;
+}
+
+.twitterFeedNav{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: 24px;
+}
+
+.twitterFeedNav a{
+	clear: both;
+}
+
+
+.customerLinkedInDate1{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.customerLinkedInDate2{
+	position: absolute;
+	top: 60px;
+	left: 10px;
+}
+
+.customerLinkedInFeed{
+	position: relative;
+	background-image: url("images/customerLinkedInFeedBackground.png");
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 220px;
+	margin: 50px 0 0 0;
+}
+
+.customerLinkedInFeed h3{
+	position: absolute;
+	top: -25px;
+	left: 65px;
+}
+
+.customerLinkedInFeed p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #606060;
+	margin: 20px 0 22px 55px;
+	width: 400px;
+}
+
+.customerLinkedInFeed p:first-of-type{
+	padding-top: 6px;
+}
+
+.customerLinkedInLogo{
+	position: absolute;
+	top: -22px;
+	left: 38px;
+}
+
+.linkedInFeedNav{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: 24px;
+}
+
+.customerNewsFeed{
+	position: relative;
+	width: 405px;
+	height: 375px;
+	margin: -415px 0 0 530px;
+}
+
+.customerBloggerLogo{
+	position: absolute;
+	top: 4px;
+	left: 0px;
+}
+
+.customerNewsFeed h3{
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+
+.customerNewsFeed h5{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #606060;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+
+.customerNewsFeed h5 span{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	font-weight: 100;
+}
+
+.customerNewsFeed p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #606060;
+	margin-bottom: 20px;
+}
+
+.newsFeedNav{
+	position: absolute;
+	top: 200px;
+	right: -30px;
+	width: 24px;
+}
+
+.newsFeedNav img{
+	margin-bottom: 30px;
+}
+
 
 
 
@@ -956,6 +1248,8 @@ height: 2124px;
 	text-transform: capitalize;
 	width: 180px;
 }
+
+
 /* -----END CUSTOMERS */
 
 
