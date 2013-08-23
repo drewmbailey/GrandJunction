@@ -801,15 +801,9 @@ footer nav li a{
 
 
 
-
-
-
-
-
-
 /* -----RESOURCE */
 .resourceBackground{
-	background-image:url("images/customerBackground.png");
+	background-image:url("images/resourceBackground.png");
 }
 
 .resourceWrap{
@@ -844,7 +838,7 @@ height: 2124px;
 	margin-bottom: 20px;
 }
 
-/*customer middle content*/
+/*resource middle content*/
 
 .resourceMiddleContent{
 	width: 610px;
@@ -869,6 +863,7 @@ height: 2124px;
 	color: #C12026;
 	font-weight: 400;
 	margin-bottom: 2px;
+	float: left;
 }
 
 .resourceMiddleContent p{
@@ -877,12 +872,20 @@ height: 2124px;
 	line-height: 20px;
 	color: #606060;
 	margin-bottom: 20px;
+	clear: left;
 }
 
 .resourceResources, .resourceNews, .resourceArticles{
 	margin-bottom: 40px;
 }
 
+.resourceResources img, .resourceArticles img{
+	margin: -3px 0 0 10px;
+}
+
+.resourceArticles{
+	margin-top: 70px;
+}
 .resourceSidebar{
 	position: absolute;
 	top: 10px;
@@ -978,7 +981,7 @@ height: 2124px;
 
 .resourceTwitterFeed{
 	position: relative;
-	background-image: url("images/customerTwitterFeedBackground.png");
+	background-image: url("images/resourceTwitterFeedBackground.png");
 	background-repeat: no-repeat;
 	width: 500px;
 	height: 120px;
@@ -1048,7 +1051,7 @@ height: 2124px;
 
 .resourceLinkedInFeed{
 	position: relative;
-	background-image: url("images/customerLinkedInFeedBackground.png");
+	background-image: url("images/resourceLinkedInFeedBackground.png");
 	background-repeat: no-repeat;
 	width: 500px;
 	height: 220px;
@@ -1140,9 +1143,6 @@ height: 2124px;
 .newsFeedNav img{
 	margin-bottom: 30px;
 }
-
-
-
 
 /* resource footer */
 .resourceFooter{
@@ -1256,20 +1256,258 @@ height: 2124px;
 	width: 180px;
 }
 
-
-/* -----END CUSTOMERS */
-
-
-/* -----LAST MILE */
-
-/* -----END LAST MILE */
+/* -----END RESOURCE */
 
 
-/* -----RESOURCES */
-
-/* -----END RESOURCES */
 
 
 /* -----COMPANY */
+.companyBackground{
+	background-image:url("images/companyBackground.png");
+}
 
+.companyWrap{
+position: relative;
+width: 1050px;
+margin: 0 auto;
+height: 2892px;
+}
+ 
+/* company .topContent */
+.companyTopContent{
+	width: 565px;
+	position: absolute;
+	top: 180px;
+	left: 280px;
+}
+
+.companyTopContent h1{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 50px; 
+	font-weight: 100;
+	color: #404041;
+	margin-bottom: 6px;
+}
+
+.companyTopContent p{ 
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 22px; 
+	line-height: 30px;
+	font-weight: 100;
+	color: #C12026;
+	margin-bottom: 20px;
+}
+/* company main */
+
+.companyMain{
+	position: absolute;
+	top: 440px;
+	left: 0;
+	width: 660px;
+}
+
+.companyMain h3, .companyMain p{
+	margin-left: 150px;
+}
+
+.companyMain h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #D85800;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+
+.companyMain h3{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	font-weight: 400;
+	margin-bottom: 2px;
+}
+
+.companyMain h3{
+	margin-top: 75px;
+}
+
+.companyMain h3:first-of-type{
+	margin-top: 40px;
+}
+
+.companyMain h3 span{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #D85800;
+	font-weight: 100;
+	margin-bottom: 2px;
+}
+
+.companyMain p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #606060;
+	margin-bottom: 20px;
+}
+
+/* company sidebar */
+.companySidebar{
+	position: absolute;
+	top: 465px;
+	left: 735px;
+	width: 225px;
+}
+
+.companySidebar h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #D85800;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+
+.companySidebar h3{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	font-weight: 400;
+}
+
+.companySidebar h4{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 20px;
+	line-height: 26px;
+	color: #C12026;
+	font-weight: 100;
+	margin-top: 20px;
+}
+
+.companySidebar p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #606060;
+}
+
+.companyAddress p, .companySupport p, .mediaContact, .companyCareers{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* company footer */
+.companyFooter{
+	position: absolute;
+	left: -13px;
+	top: 2695px;
+}
+
+.companyFooter div{
+	position: relative;
+}
+
+.companyFooter nav li{
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 8px;
+}
+
+.companyFooter nav li a{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 500;
+}
+
+.footerNavMain{
+	margin: 90px 0 0 35px;
+}
+
+.footerNav{
+	margin: -18px 0 0 260px;
+}
+
+.footerNav ul li{
+	float: left;
+}
+
+.footerNav ul li{
+	margin-left: 6px;
+}
+
+.footerNav ul li a{
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404041;	
+}
+
+.contactUs{
+	position: absolute;
+	top: -33px;
+	left: 745px;
+	width: 350px;
+}
+
+.contactUs h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px; 
+	font-weight: 100;
+	color: #F9102C;
+	margin: -5px 20px 0 0;
+	float: left;
+}
+
+.contactUs p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 16px;
+	line-height: 20px; 
+	font-weight: 100;
+	color: #404041;
+}
+
+.contactUs p:last-of-type{
+	margin-left: 126px;
+}
+
+.stayConnected{
+	position: absolute;
+	top: 3px;
+	left: 745px;
+	width: 350px;	
+}
+
+.stayConnected h3{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 400;
+}
+
+.stayConnected ul{
+	position: absolute;
+	top: -13px;
+	left: 140px;
+} 
+
+.stayConnected ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+.copyright{
+	margin: -15px 0 0 45px;
+	font-size: 16px;
+	color: #404041;	
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-transform: capitalize;
+	width: 180px;
+}
 /* -----END COMPANY */
