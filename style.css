@@ -474,7 +474,7 @@ footer nav li a{
 }
 
 .indexCopyright{
-	margin: 50px 0 0 45px;
+	margin: 80px 0 0 45px;
 	font-size: 16px;
 	color: #404041;	
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
@@ -800,27 +800,34 @@ footer nav li a{
 /* -----END TECHNOLOGY */
 
 
-/* -----CUSTOMER */
-.customerBackground{
+
+
+
+
+
+
+
+/* -----RESOURCE */
+.resourceBackground{
 	background-image:url("images/customerBackground.png");
 }
 
-.customerWrap{
+.resourceWrap{
 position: relative;
 width: 1050px;
 margin: 0 auto;
 height: 2124px;
 }
 
-/*customer top content*/
-.customerTopContent{
+/*resource top content*/
+.resourceTopContent{
 	width: 565px;
 	position: absolute;
 	top: 230px;
 	left: 245px;
 }
 
-.customerTopContent h1{
+.resourceTopContent h1{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 50px; 
 	font-weight: 100;
@@ -828,7 +835,7 @@ height: 2124px;
 	margin-bottom: 6px;
 }
 
-.customerTopContent p{ 
+.resourceTopContent p{ 
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 22px; 
 	line-height: 30px;
@@ -839,14 +846,14 @@ height: 2124px;
 
 /*customer middle content*/
 
-.customerMiddleContent{
+.resourceMiddleContent{
 	width: 610px;
 	position: absolute;
 	top: 450px;
 	left: 50px;
 }
 
-.customerMiddleContent h2{
+.resourceMiddleContent h2{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 24px;
 	line-height: 24px;
@@ -855,7 +862,7 @@ height: 2124px;
 	font-weight: 100;
 }
 
-.customerMiddleContent h3{
+.resourceMiddleContent h3{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 18px;
 	line-height: 24px;
@@ -864,7 +871,7 @@ height: 2124px;
 	margin-bottom: 2px;
 }
 
-.customerMiddleContent p{
+.resourceMiddleContent p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 14px;
 	line-height: 20px;
@@ -872,18 +879,18 @@ height: 2124px;
 	margin-bottom: 20px;
 }
 
-.customerResources, .customerNews, .customerArticles{
+.resourceResources, .resourceNews, .resourceArticles{
 	margin-bottom: 40px;
 }
 
-.customerSidebar{
+.resourceSidebar{
 	position: absolute;
 	top: 10px;
 	left: 680px;
 	width: 225px;
 }
 
-.customerSidebar h4{
+.resourceSidebar h4{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 24px;
 	line-height: 24px;
@@ -892,7 +899,7 @@ height: 2124px;
 	font-weight: 100;
 }
 
-.customerSidebar blockquote{ 
+.resourceSidebar blockquote{ 
 	font-family:  Vegur, Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 14px;
 	line-height: 18px;
@@ -901,7 +908,7 @@ height: 2124px;
 	margin-bottom: 10px;
 }
 
-.customerSidebar p{
+.resourceSidebar p{
 	font-family: "myriad pro", Calibri, Arial, Georgia, Verdana, Sans-Serif; 
 	color: #C33927;
 	font-weight: 900;
@@ -909,7 +916,7 @@ height: 2124px;
 	font-size: 14px;
 }
  
-.customerSidebar img{
+.resourceSidebar img{
 	margin: 5px 0 20px 0;
 }
 
@@ -938,8 +945,8 @@ height: 2124px;
 }
 
 
-/*customer bottom content*/
-.customerBottomContent{
+/*resource bottom content*/
+.resourceBottomContent{
 	position: absolute;
 	top: 1525px;
 	left: 42px;
@@ -947,11 +954,11 @@ height: 2124px;
 	height: 440px;
 }
 
-.customerBottomContentWrap{
+.resourceBottomContentWrap{
 	position: relative;
 }
 
-.customerBottomContent h2{
+.resourceBottomContent h2{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 24px;
 	line-height: 24px;
@@ -960,7 +967,7 @@ height: 2124px;
 	font-weight: 100;
 }
 
-.customerBottomContent h3{
+.resourceBottomContent h3{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 18px;
 	line-height: 24px;
@@ -969,7 +976,7 @@ height: 2124px;
 	margin-bottom: 2px;
 }
 
-.customerTwitterFeed{
+.resourceTwitterFeed{
 	position: relative;
 	background-image: url("images/customerTwitterFeedBackground.png");
 	background-repeat: no-repeat;
@@ -978,13 +985,13 @@ height: 2124px;
 	margin: 50px 0 0 0;
 }
 
-.customerTwitterFeed h3{
+.resourceTwitterFeed h3{
 	position: absolute;
 	top: -25px;
 	left: 65px;
 }
 
-.customerTwitterFeed p{
+.resourceTwitterFeed p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 12px;
 	line-height: 16px;
@@ -993,23 +1000,23 @@ height: 2124px;
 	margin: 20px 0 22px 55px;
 }
 
-.customerTwitterFeed p:first-of-type{
+.resourceTwitterFeed p:first-of-type{
 	padding-top: 6px;
 }
 
-.customerTwitterFeedLogo{
+.resourceTwitterFeedLogo{
 	position: absolute;
 	top: -22px;
 	left: 38px;
 }
 
-.customerTwitterDate1{
+.resourceTwitterDate1{
 	position: absolute;
 	top: 5px;
 	left: 10px;
 }
 
-.customerTwitterDate2{
+.resourceTwitterDate2{
 	position: absolute;
 	top: 60px;
 	left: 10px;
@@ -1027,19 +1034,19 @@ height: 2124px;
 }
 
 
-.customerLinkedInDate1{
+.resourceLinkedInDate1{
 	position: absolute;
 	top: 5px;
 	left: 10px;
 }
 
-.customerLinkedInDate2{
+.resourceLinkedInDate2{
 	position: absolute;
 	top: 60px;
 	left: 10px;
 }
 
-.customerLinkedInFeed{
+.resourceLinkedInFeed{
 	position: relative;
 	background-image: url("images/customerLinkedInFeedBackground.png");
 	background-repeat: no-repeat;
@@ -1048,13 +1055,13 @@ height: 2124px;
 	margin: 50px 0 0 0;
 }
 
-.customerLinkedInFeed h3{
+.resourceLinkedInFeed h3{
 	position: absolute;
 	top: -25px;
 	left: 65px;
 }
 
-.customerLinkedInFeed p{
+.resourceLinkedInFeed p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 12px;
 	line-height: 16px;
@@ -1063,11 +1070,11 @@ height: 2124px;
 	width: 400px;
 }
 
-.customerLinkedInFeed p:first-of-type{
+.resourceLinkedInFeed p:first-of-type{
 	padding-top: 6px;
 }
 
-.customerLinkedInLogo{
+.resourceLinkedInLogo{
 	position: absolute;
 	top: -22px;
 	left: 38px;
@@ -1080,25 +1087,25 @@ height: 2124px;
 	width: 24px;
 }
 
-.customerNewsFeed{
+.resourceNewsFeed{
 	position: relative;
 	width: 405px;
 	height: 375px;
 	margin: -415px 0 0 530px;
 }
 
-.customerBloggerLogo{
+.resourceBloggerLogo{
 	position: absolute;
 	top: 4px;
 	left: 0px;
 }
 
-.customerNewsFeed h3{
+.resourceNewsFeed h3{
 	margin-left: 25px;
 	margin-bottom: 15px;
 }
 
-.customerNewsFeed h5{
+.resourceNewsFeed h5{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 18px;
 	line-height: 24px;
@@ -1107,7 +1114,7 @@ height: 2124px;
 	font-weight: 900;
 }
 
-.customerNewsFeed h5 span{
+.resourceNewsFeed h5 span{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 18px;
 	line-height: 24px;
@@ -1115,7 +1122,7 @@ height: 2124px;
 	font-weight: 100;
 }
 
-.customerNewsFeed p{
+.resourceNewsFeed p{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 12px;
 	line-height: 18px;
@@ -1137,24 +1144,24 @@ height: 2124px;
 
 
 
-/* customer footer */
-.customerFooter{
+/* resource footer */
+.resourceFooter{
 	position: absolute;
 	left: -13px;
 	top: 1924px;
 }
 
-.customerFooter div{
+.resourceFooter div{
 	position: relative;
 }
 
-.customerFooter nav li{
+.resourceFooter nav li{
 	margin-bottom: 10px;
 	float: left;
 	margin-left: 8px;
 }
 
-.customerFooter nav li a{
+.resourceFooter nav li a{
 	text-transform: uppercase;
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	text-decoration: none;
