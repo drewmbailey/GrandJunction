@@ -1036,7 +1036,6 @@ height: 2124px;
 	clear: both;
 }
 
-
 .resourceLinkedInDate1{
 	position: absolute;
 	top: 5px;
@@ -1511,3 +1510,312 @@ height: 2892px;
 	width: 180px;
 }
 /* -----END COMPANY */
+
+
+
+/* -----CUSTOMER */
+.customerBackground{
+	background-image:url("images/customerBackground.png");
+}
+
+.customerWrap{
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+	height: 1730px;
+}
+
+/*customer top content*/
+.customerTopContent{
+	width: 750px;
+	position: absolute;
+	top: 180px;
+	left: 130px;
+}
+.customerTopContent h1{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 50px; 
+	font-weight: 100;
+	color: #404041;
+	margin-bottom: 6px;
+}
+
+.customerTopContent p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 22px; 
+	line-height: 30px;
+	font-weight: 100;
+	color: #C12026;
+	margin-bottom: 20px;
+}
+
+/*customer middle content*/
+.customerMiddleContent{
+	position: absolute;
+	top: 450px;
+	left: 50px;
+}
+ 
+.customerMiddleContent h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.customerMiddleContent ul{
+	list-style: none;
+	width: 700px;
+	margin-left: -13px;
+}
+
+.customerMiddleContent ul li{
+	float: left;
+	margin: 10px 15px ;
+}
+
+.clientLogo4{
+	margin-left: 120px !important;
+}
+
+.customerClientLogos{
+	width: 700px;
+}
+
+.customerCaseStudies{
+	position: absolute;
+	top: 300px;
+	left: 0;
+	width: 615px;
+}
+
+.customerMiddleContent h3{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #C12026;
+	font-weight: 400;
+	margin-bottom: 2px;
+	float: left;
+}
+
+.customerMiddleContent p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #606060;
+	margin-bottom: 20px;
+	clear: left;
+}
+
+.customerCaseStudies img{
+	margin: -3px 0 0 10px;
+	}
+
+/*customer sidebar*/
+.customerSidebar{
+	position: absolute;
+	top: 460px;
+	left: 710px;
+	height: 421px;
+	width: 279px;
+	background: #caccce;
+}
+
+.customerSidebar div{
+	width: 225px;
+	margin: 30px;
+}
+
+.customerSidebar h4{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+
+.customerSidebar p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #c12026;
+	margin-bottom: 10px;
+	clear: left;
+	font-weight: 100;
+}
+
+/*customer bottom content*/
+.customerBottomContent{
+	background-image: url("images/grandJunctionResultsBackground.png");
+	width: 643px;
+	height: 409px;
+	position: absolute;
+	top: 1100px;
+	left: 40px;
+}
+
+.customerBottomContent h4{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+
+.customerBottomContent ul{
+	list-style: none;
+	margin-left: 5px;
+}
+
+.customerBottomContent li{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #606060;
+	clear: left;
+}
+
+.grandJunctionResults{
+	margin: 20px 0 0 45px;
+}
+
+.whyGrandJunction{
+	margin: 55px 0 0 45px;
+}
+
+.customerBottomContent li img{
+	height: 14px;
+	margin: 0 5px -2px 0;
+}
+/* customer footer */
+.customerFooter{
+	position: absolute;
+	left: -13px;
+	top: 1505px;
+}
+
+.customerFooter div{
+	position: relative;
+}
+
+.customerFooter nav li{
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 8px;
+}
+
+.customerFooter nav li a{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 500;
+}
+
+.footerNavMain{
+	margin: 90px 0 0 35px;
+}
+
+.footerNav{
+	margin: -18px 0 0 260px;
+}
+
+.footerNav ul li{
+	float: left;
+}
+
+.footerNav ul li{
+	margin-left: 6px;
+}
+
+.footerNav ul li a{
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 14px;
+	color: #404041;	
+}
+
+.contactUs{
+	position: absolute;
+	top: -33px;
+	left: 745px;
+	width: 350px;
+}
+
+.contactUs h2{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 24px; 
+	font-weight: 100;
+	color: #F9102C;
+	margin: -5px 20px 0 0;
+	float: left;
+}
+
+.contactUs p{
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	font-size: 16px;
+	line-height: 20px; 
+	font-weight: 100;
+	color: #404041;
+}
+
+.contactUs p:last-of-type{
+	margin-left: 126px;
+}
+
+.stayConnected{
+	position: absolute;
+	top: 3px;
+	left: 745px;
+	width: 350px;	
+}
+
+.stayConnected h3{
+	text-transform: uppercase;
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-decoration: none;
+	color: #404041;
+	font-weight: 400;
+}
+
+.stayConnected ul{
+	position: absolute;
+	top: -13px;
+	left: 140px;
+} 
+
+.stayConnected ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+.copyright{
+	margin: -15px 0 0 45px;
+	font-size: 16px;
+	color: #404041;	
+	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
+	text-transform: capitalize;
+	width: 180px;
+}
+/* -----END CUSTOMER */
+
+
+/* -----START CONTACT */
+.contactBackground{
+	background-image:url("images/contactBackground.png");
+}
+
+.contactWrap{
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+	height: 1479px;
+}
+
+/* -----END CONTACT */
