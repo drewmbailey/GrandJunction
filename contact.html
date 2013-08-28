@@ -64,16 +64,50 @@
 					</div>
 					
 					<div class="contactMiddleContent">
+							<div id="page-wrap">
+										
+								<div id="contact-area">
 
-					
+									<h2>Contact Us</h2>
+									
+									<form method="post" action="php/contactengine.php">
+										<label for="Name">Your Name*</label>
+										<input type="text" name="Name" id="Name" />
+										
+										<label for="Organization">Organization</label>
+										<input type="text" name="Organization" id="Organization" />
+							
+										<label for="Email">Email*</label>
+										<input type="text" name="Email" id="Email" />
+										
+										<label for="Message">How May We Help You?</label><br />
+										<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+										<input type="submit" name="submit" value="" class="submit-button" />
+									</form>
+									
+									<div style="clear: both;"></div>
+								
+								</div>
+							
+							</div>
 					</div> <!-- end .contactMiddleContent -->
 
 					<div class="contactSidebar">
-						<div>
-							<h4>What Our Customers Are Saying</h4>
-							<p>“GrandJunction’s cloud-based
-	software gave us the level of control over quality and performance across our enterprise that allowed us to increase customer loyalty by delivering exceptional service to our existing customers as well as to grow sales by offering new delivery services.”</p>
-							<p>- United Stationers</p>
+						<div class="contactSidebarWrap">
+							<h4>Corporate Office</h4>
+							<div>							
+								<p class="contactSidebarBold">GrandJunction</p>
+								<p>250 Montgomery Street</p>
+								<p>3rd Floor</p>
+								<p>San Francisco, CA 94104</p>
+							</div>
+							<div>
+								<p class="contactSidebarBold">(415) 277-2220</p>
+								<p class="contactSidebarBold">info@GrandJunction.com</p>
+							</div>
+
+							<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?sll=37.7992509,-122.40034110000002&amp;sspn=0.1675683995610407,0.3868842523318966&amp;t=h&amp;q=250+Montgomery+St,+San+Francisco,+CA&amp;dg=opt&amp;ie=UTF8&amp;hq=&amp;hnear=250+Montgomery+St,+San+Francisco,+California+94104&amp;ll=37.762995,-122.370778&amp;spn=0.163393,0.308647&amp;z=12&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?sll=37.7992509,-122.40034110000002&amp;sspn=0.1675683995610407,0.3868842523318966&amp;t=h&amp;q=250+Montgomery+St,+San+Francisco,+CA&amp;dg=opt&amp;ie=UTF8&amp;hq=&amp;hnear=250+Montgomery+St,+San+Francisco,+California+94104&amp;ll=37.762995,-122.370778&amp;spn=0.163393,0.308647&amp;z=12&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 						</div>	
 					</div> <!-- end .contactSidebar -->
 
@@ -98,7 +132,7 @@
 						</nav>
 			
 						<div class="contactUs">
-							<h2>Contact Us</h2>
+							<h2><a class="contactPageLink" href="contact.html">Contact Us</a></h2>
 							<p>(415) 277-2220</p>
 							<p>info@GrandJunction.com</p>
 						</div>
