@@ -680,7 +680,7 @@ body#technology{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 24px;
 	line-height: 24px;
-	color: #D85800;
+	color: #FFF;
 	margin: 0 0 10px -15px;
 	font-weight: 100;
 }
@@ -964,7 +964,7 @@ body#resource{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 24px;
 	line-height: 24px;
-	color: #D85800;
+	color: #FFF;
 	margin: 0 0 20px 0;
 	font-weight: 100;
 }
@@ -1328,15 +1328,20 @@ body#resource{
 
 
 /* -----COMPANY */
+body#company{
+	background-image: url("images/companyBackgroundSlice.png");
+	background-repeat: repeat-x;
+}
+
 .companyBackground{
 	background-image:url("images/companyBackground.png");
 }
 
 .companyWrap{
-position: relative;
-width: 1050px;
-margin: 0 auto;
-height: 2892px;
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+	height: 2826px;
 }
  
 /* company .topContent */
@@ -1395,7 +1400,7 @@ height: 2892px;
 }
 
 .companyMain h3{
-	margin-top: 75px;
+	margin-top: 65px;
 }
 
 .companyMain h3:first-of-type{
@@ -1424,14 +1429,20 @@ height: 2892px;
 	position: absolute;
 	top: 465px;
 	left: 735px;
-	width: 225px;
+	width: 260px;
+	background: #CACCCE;
+}
+
+.companySidebar div{
+	width: 220px;
+	margin: 20px;
 }
 
 .companySidebar h2{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	font-size: 24px;
 	line-height: 24px;
-	color: #D85800;
+	color: #FFF;
 	margin-bottom: 20px;
 	font-weight: 100;
 }
@@ -1469,7 +1480,7 @@ height: 2892px;
 .companyFooter{
 	position: absolute;
 	left: -13px;
-	top: 2695px;
+	top: 2613px;
 }
 
 .companyFooter div{
@@ -1780,7 +1791,7 @@ body#customer{
 .customerFooter{
 	position: absolute;
 	left: -13px;
-	top: 1505px;
+	top: 1514px;
 }
 
 .customerFooter div{
