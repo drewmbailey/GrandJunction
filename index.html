@@ -12,10 +12,27 @@
 
         <link rel="stylesheet" href="style.css">
 
+        <script src="js/jquery-1.10.2-min.js"></script>
         <script src="js/modernizr-2.6.2.min.js"></script>
 
+		<script type="text/javascript">
+			$( document ).ready(function() {
+
+				jQuery("#slideshow > div:gt(0)").hide();
+
+				setInterval(function() {
+				  jQuery('#slideshow > div:first')
+				    .fadeOut(1000)
+				    .next()
+				    .fadeIn(1000)
+				    .end()
+				    .appendTo('#slideshow');
+				},  3000);
+			});
+		</script>
+
     </head>
-    <body>
+    <body id="index">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -34,13 +51,13 @@
 					</div>
 					
 					<div class="login">
-						<a href="login.perfectlastmile.com">	
+						<a href="https://login.perfectlastmile.com/">	
 							<img src="images/login.png" alt="Login and Contact buttons" height="26px" width="130px">
 						</a>
 					</div>
 					
 					<div class="contact">
-						<a href="#">
+						<a href="contact.html">
 							<img src="images/contact.png" alt="Login and Contact buttons" height="26px" width="130px">
 						</a>
 					</div>
@@ -75,8 +92,8 @@
 						<div class="middle">
 							<h2>Deliveries Managed</h2>
 							<img class="deliveryCounter" src="images/deliveryCounter.png">
-							<img class="nums1" src="images/nums1.png">
-							<img class="nums2" src="images/nums2.png">
+							<img class="nums1" src="images/nums2.png">
+							<img class="nums2" src="images/nums1.png">
 						</div>
 						
 						<div class="right">
@@ -95,8 +112,29 @@
 					</div> 
 					
 					<div class="indexBottomContent">
+
 						<a class="ourClients" href="#"><img src="images/ourClients.png" alt="Our Clients Link"></a>
-						<a class="unitedStationers" href="#"><img src="images/unitedStationers.png" alt="United Stationers Link"></a>
+
+						<!-- <a class="unitedStationers" href="#"><img src="images/unitedStationers.png" alt="United Stationers Link"></a> -->
+						
+						<div id="slideshow">
+						   <div>
+						     <img src="images/UnitedStationersLogo.jpg">
+						   </div>
+						   <div>
+						     <img src="images/IOMetroLogo.jpg">
+						   </div>
+						   <div>
+						     <img src="images/OfficeMaxLogo.jpg">
+						   </div>
+						   <div>
+						     <img src="images/MckessonLogo.jpg">
+						   </div>
+						   <div>
+						     <img src="images/EnsendaLogo.png">
+						   </div>
+						</div>
+
 						<div class="newsFeedWrap">
 							<img class="newsFeed" src="images/newsFeed.png" alt="News Feed">
 							<a class="twitterLink" href="#"><img src="images/twitter.png" alt="Twitter Link"></a>
@@ -140,7 +178,7 @@
 					<div class="indexStayConnected">
 						<h3>Stay Connected</h3>
 						<ul>
-							<li><a class="twitterConnect" href="#"><img src="images/twitterConnect.png" alt="Twitter Connect Link"></a></li>
+							<li><a class="twitterConnect" href="https://twitter.com/GrandJunctionSW"><img src="images/twitterConnect.png" alt="Twitter Connect Link"></a></li>
 							<li><a class="linkedInConnect" href="#"><img src="images/linkedInConnect.png" alt="Twitter Connect Link"></a></li>
 							<li><a class="bloggerConnect" href="#"><img src="images/bloggerConnect.png" alt="Twitter Connect Link"></a></li>	
 						</ul>											

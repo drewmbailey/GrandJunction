@@ -12,10 +12,11 @@
 
         <link rel="stylesheet" href="style.css">
 
+        <script src="js/jquery-1.10.2-min.js"></script>
         <script src="js/modernizr-2.6.2.min.js"></script>
 
     </head>
-    <body>
+    <body id="resource">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -34,13 +35,13 @@
 					</div>
 					
 					<div class="login">
-						<a href="login.perfectlastmile.com">	
+						<a href="https://login.perfectlastmile.com/">	
 							<img src="images/login.png" alt="Login and Contact buttons" height="26px" width="130px">
 						</a>
 					</div>
 					
 					<div class="contact">
-						<a href="#">
+						<a href="contact.html">
 							<img src="images/contact.png" alt="Login and Contact buttons" height="26px" width="130px">
 						</a>
 					</div>
@@ -50,7 +51,7 @@
 							<li><a href="technology.html">Technology</a></li>
 							<li><a href="customer.html">Customers</a></li>
 							<!-- <li><a href="#">Last Mile</a></li> -->
-							<li><a href="resource.html">Resources</a></li>
+							<li><a class="mainNavActive" shref="resource.html">Resources</a></li>
 							<li><a href="company.html">Company</a></li>
 						</ul>
 					</nav>
@@ -65,13 +66,13 @@
 					<div class="resourceMiddleContent">
 						<div class="resourceResources">
 							<h2>Resources</h2>
-							<h3>I.O. Metro Case Study</h3>
+<!-- 							<h3>I.O. Metro Case Study</h3>
 							<a href="#"><img src="images/resourceArrow.png" alt="download resource"></a>
 							<p>I.O. Metro, a specialty lifestyle furniture retailer with 18 locations across the South and Midwest found it difficult to maintain a high quality customer experience with their home delivery program because they lacked insight throughout the delivery process. Find out how they centralized delivery-related communications and provided an audit trail of actions taken as a key strategy to create a consistent customer experience.</p>
 
 							<h3>United Stationers Case Study</h3>
 							<a href="#"><img src="images/resourceArrow.png" alt="download resource"></a>
-							<p>This leading wholesaler of business products was expanding fast and saw an opportunity to capitalize on growing market opportunities, acquiring more than five companies in the last decade. With Each acquisition came a more complicated supply chain with different or non-existent processes. Find out how they reduced their annual transportation and operating expenses by millions of dollars while still increasing sales.</p>
+							<p>This leading wholesaler of business products was expanding fast and saw an opportunity to capitalize on growing market opportunities, acquiring more than five companies in the last decade. With Each acquisition came a more complicated supply chain with different or non-existent processes. Find out how they reduced their annual transportation and operating expenses by millions of dollars while still increasing sales.</p> -->
 						</div>
 						
 <!-- 						<div class="resourceNews">
@@ -91,27 +92,27 @@
 						</div>
 						
 						<div class="resourceSidebar">
-							<h4>What Our Customers are Saying</h4>
-							<blockquote>“GrandJunction’s cloud-based software gave us a level of enterprise-wide control over quality and performance that allowed us to increase customer loyalty by delivering exceptional service to our existing customers as well as to grow sales by offering new delivery services.”</blockquote>
-							<p>— Supply Chain Executive at Business Products Wholesaler</p>
-							<a href="#"><img src="images/caseStudyButton.png" alt="case study download button"></a>
-							
-							<blockquote>“GrandJunction’s Last Mile Platform will not only help ensure our customers have a high-quality home delivery but allow us to support our aggressive growth plan without increasing headcount to manage our delivery program,”</blockquote>
-							<p>— Lou Spagna, President and COO of I.O. Metro.</p>
-							<img>
-							<a href="#"><img src="images/caseStudyButton.png" alt="case study download button"></a>
+							<div><h4>What Our Customers are Saying</h4>
+								<blockquote>“GrandJunction’s cloud-based software gave us a level of enterprise-wide control over quality and performance that allowed us to increase customer loyalty by delivering exceptional service to our existing customers as well as to grow sales by offering new delivery services.”</blockquote>
+								<p>— Supply Chain Executive at Business Products Wholesaler</p>
+								<a href="#"><img src="images/caseStudyButton.png" alt="case study download button"></a>
+								
+								<blockquote>“GrandJunction’s Last Mile Platform will not only help ensure our customers have a high-quality home delivery but allow us to support our aggressive growth plan without increasing headcount to manage our delivery program,”</blockquote>
+								<p>— Lou Spagna, President and COO of I.O. Metro.</p>
+								<img>
+								<a href="#"><img src="images/caseStudyButton.png" alt="case study download button"></a>
+							</div>
 						</div>
 
 						<div class="someClients">
 							<div>
 							<h3>Some of Our Clients</h3>
-								<ul>
-									<li><a href="#"><img src="images/unitedStationers.png" alt="United Stationers" width="116px" height="46px"></a></li>
-									<li><a href="#"><img src="images/blankClientBox.png" alt="United Stationers" width="116px" height="46px"></a></li>
-									<li><a href="#"><img src="images/blankClientBox.png" alt="United Stationers" width="116px" height="46px"></a></li>
-									<li><a href="#"><img src="images/blankClientBox.png" alt="United Stationers" width="116px" height="46px"></a></li>
-									<li><a href="#"><img src="images/blankClientBox.png" alt="United Stationers" width="116px" height="46px"></a></li>
-									<li><a href="#"><img src="images/blankClientBox.png" alt="United Stationers" width="116px" height="46px"></a></li>
+								<ul style="customerClientLogos">
+									<li><a href="#"><img src="images/UnitedStationersLogo.jpg"></a></li>
+									<li><a href="#"><img src="images/IOMetroLogo.jpg"></a></li>
+									<li><a href="#"><img src="images/OfficeMaxLogo.jpg"></a></li>
+									<li><a href="#"><img src="images/MckessonLogo.jpg"></a></li>
+									<li><a href="#"><img src="images/EnsendaLogo.png"></a></li>
 								</ul>
 							</div>
 						</div>
@@ -122,7 +123,11 @@
 					<div class="resourceBottomContent">
 						<div class="resourceBottomContentWrap">
 							<h2>Social Media</h2>
-							<div class="resourceTwitterFeed">
+								<div class="resourceTwitterFeed">
+									<a class="twitter-timeline" href="https://twitter.com/drewbaileyDev" data-widget-id="371648297020059648">Tweets by @drewbaileyDev</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								</div>
+<!-- 							<div class="resourceTwitterFeed">
 								<h3>Twitter Feed</h3>
 								<img class="resourceTwitterFeedLogo" src="images/twitter.png" alt="twitter logo">
 								<img class="resourceTwitterDate1"src="images/july27Placeholder.png" alt="date placeholder">
@@ -134,9 +139,9 @@ pulvinar, laoreet ac arcu.vitae adipiscing eu.In tellus purus.</p>
 									<a class="upArrow" href="#"><img src="images/upArrow.png" alt="Twitter Navigation Up Arrow"></a>
 									<a class="downArrow" href="#"><img src="images/downArrow.png" alt="Twitter Navigation Down Arrow"></a>
 								</div>
-							</div>
+							</div> -->
 							
-							<div class="resourceLinkedInFeed">
+<!-- 							<div class="resourceLinkedInFeed">
 								<h3>LinkedIn Feed</h3>
 								<img class="resourceLinkedInLogo" src="images/linkedIn.png" alt="linkedin logo">
 								<img class="resourceLinkedInDate1" src="images/july27Placeholder.png" alt="date placeholder">
@@ -153,7 +158,7 @@ arcu.vitae adipiscing eu.</p>
 									<a class="upArrow" href="#"><img src="images/upArrow.png" alt="LinkedIn Navigation Up Arrow"></a>
 									<a class="downArrow" href="#"><img src="images/downArrow.png" alt="LinkedIn Navigation Down Arrow"></a>
 								</div>
-							</div>
+							</div> -->
 						
 							<div class="resourceNewsFeed">
 								<h3>Blog / News Feed</h3>
@@ -212,7 +217,7 @@ laoreet ac arcu.vitae adipiscing eu.</p>
 						<div class="stayConnected">
 							<h3>Stay Connected</h3>
 							<ul>
-								<li><a class="twitterConnect" href="#"><img src="images/twitterConnect.png" alt="Twitter Connect Link"></a></li>
+								<li><a class="twitterConnect" href="https://twitter.com/GrandJunctionSW"><img src="images/twitterConnect.png" alt="Twitter Connect Link"></a></li>
 								<li><a class="linkedInConnect" href="#"><img src="images/linkedInConnect.png" alt="Twitter Connect Link"></a></li>
 								<li><a class="bloggerConnect" href="#"><img src="images/bloggerConnect.png" alt="Twitter Connect Link"></a></li>	
 							</ul>											

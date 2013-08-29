@@ -116,8 +116,13 @@ body{
 	background: #fefefe;
 }
 
+body#index{
+	background-image: url("images/indexBackgroundSlice.png");
+	background-repeat: repeat-x;
+}
+
 .index-background{
-	background-image:url("images/index-background.png");
+	background-image: url("images/index-background.png");
 }
 
 .mainWrap{
@@ -171,7 +176,15 @@ body{
 	font-family:  Vegur , Calibri, Arial, Georgia, Verdana, Sans-Serif;
 	color: #404041;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 500;
+}
+
+.mainNavActive{
+	color: #C12026 !important;
+}
+
+.mainNav ul li a:hover{
+	color: #C12026;
 }
 
 .contactPageLink{
@@ -368,6 +381,22 @@ body{
 	left: 55px;	
 }
 
+/*logo slideshow*/
+#slideshow { 
+	margin: 264px 0 0 -15px; 
+    position: relative; 
+    width: 170px; 
+    height: 80px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
 /* home page footer - different from footers on other pages */
 footer{
 	position: absolute;
@@ -508,6 +537,11 @@ footer nav li a{
 
 
 /* -----TECHNOLOGY */
+body#technology{
+	background-image: url("images/technologyBackgroundSlice.png");
+	background-repeat: repeat-x;
+}
+
 .technology-background{
 	background-image:url("images/technologyBackground.png");
 }
@@ -520,11 +554,10 @@ footer nav li a{
 }
 
 .technologyTopContent{
-	width: 700px;
+	width: 715px;
 	position: absolute;
 	top: 180px;
 	left: 110px;
-
 }
 
 .technologyTopContent h1{
@@ -606,8 +639,8 @@ footer nav li a{
 }
 
 .technologyLists li{
-	list-style-type: disc;
 	font-size: 8px;
+	list-style: none;
 }
 
 .technologyLists li p{
@@ -622,7 +655,25 @@ footer nav li a{
 	position: absolute;
 	top: 460px;
 	left: 740px;
+	width: 260px;
+	height: 350px;
+	background: #caccce;
+}
+
+.technologySidebar ul{
+	list-style: none;
+}
+
+.technologySidebar img{
+	width: 13px;
+	height: 15px;
+	margin: 0 5px -2px 0;
+}
+
+.technologySidebar div{
+	margin: 20px 0 0 30px;
 	width: 210px;
+	height: 330px;
 }
 
 .technologySidebar h3{
@@ -806,15 +857,20 @@ footer nav li a{
 
 
 /* -----RESOURCE */
+body#resource{
+	background-image: url("images/resourceBackgroundSlice.png");
+	background-repeat: repeat-x;
+}
+
 .resourceBackground{
 	background-image:url("images/resourceBackground.png");
 }
 
 .resourceWrap{
-position: relative;
-width: 1050px;
-margin: 0 auto;
-height: 2124px;
+	position: relative;
+	width: 1050px;
+	margin: 0 auto;
+	height: 2134px;
 }
 
 /*resource top content*/
@@ -894,7 +950,14 @@ height: 2124px;
 	position: absolute;
 	top: 10px;
 	left: 680px;
-	width: 225px;
+	width: 265px;
+	height: 595px;
+	background: #CECCCA;
+}
+
+.resourceSidebar div{
+	width: 215px;
+	margin: 20px;
 }
 
 .resourceSidebar h4{
@@ -988,8 +1051,8 @@ height: 2124px;
 	background-image: url("images/resourceTwitterFeedBackground.png");
 	background-repeat: no-repeat;
 	width: 500px;
-	height: 120px;
-	margin: 50px 0 0 0;
+	height: 140px;
+	margin: 35px 0 0 0;
 }
 
 .resourceTwitterFeed h3{
@@ -1097,7 +1160,7 @@ height: 2124px;
 	position: relative;
 	width: 405px;
 	height: 375px;
-	margin: -415px 0 0 530px;
+	margin: -145px 0 0 530px;
 }
 
 .resourceBloggerLogo{
@@ -1518,6 +1581,11 @@ height: 2892px;
 
 
 /* -----CUSTOMER */
+body#customer{
+	background-image: url("images/customerBackgroundSlice.png");
+	background-repeat: repeat-x;
+}
+
 .customerBackground{
 	background-image:url("images/customerBackground.png");
 }
@@ -1581,11 +1649,23 @@ height: 2892px;
 }
 
 .clientLogo4{
-	margin-left: 120px !important;
+	margin-left: 95px !important;
+	clear: left;
 }
+
+.clientLogo4 img{
+	margin-top: 5px;
+}
+
+
 
 .customerClientLogos{
 	width: 700px;
+}
+
+.customerClientLogos li{
+	height: 81px;
+	width: 173px;
 }
 
 .customerCaseStudies{
@@ -1811,6 +1891,11 @@ height: 2892px;
 
 
 /* -----START CONTACT */
+body#contact{
+	background-image: url("images/contactBackgroundSlice.png");
+	background-repeat: repeat-x;
+}
+
 .contactBackground{
 	background-image:url("images/contactBackground.png");
 }
@@ -1984,7 +2069,7 @@ label {
 .contactFooter{
 	position: absolute;
 	left: -13px;
-	top: 1043px;
+	top: 1063px;
 }
 
 .contactFooter div{
